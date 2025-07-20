@@ -1,0 +1,65 @@
+name: Metrics
+
+on:
+  # Her gün saat 06:00'da otomatik çalışır
+  schedule: [{cron: "0 6 * * *"}]
+  # Manüel başlatmak için
+  workflow_dispatch:
+  # Her push sonrası (isteğe bağlı)
+  push: {branches: ["main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate GitHub Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          # ÇIKTI dosyası
+          filename: github-metrics.svg
+          # Kendi oluşturduğun secret token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # --- ANA METRİK BLOKLARI ---
+          base: header, activity, community, repositories, metadata
+
+          # --- TEMALAR ---
+          config_display: large         # Büyük kutucuklar
+          config_octicon: yes           # Octicon ikonları aktif
+          config_timezone: Europe/Istanbul # Zaman dilimi doğru olsun
+          config_twemoji: yes           # Emoji desteği
+
+          # --- AKTİVİTE & TRAFİK ---
+          plugin_traffic: yes           # Trafik breakdown
+          plugin_traffic_chart: yes     # Trafik chartı
+
+          # --- CONTRIBUTORLAR ---
+          plugin_contributors: yes
+          plugin_contributors_head: 5   # En iyi 5 contributor
+          plugin_contributors_ignored: "" # (gizlemek istediklerini yazabilirsin)
+
+          # --- COMMIT HABBITS ---
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: classic
+          plugin_habits_days: 14        # Son 14 gün
+          plugin_habits_from: 200       # Son 200 commit
+
+          # --- KONULAR (TAGS) ---
+          plugin_topics: yes
+          plugin_topics_limit: 10
+          plugin_topics_mode: starred    # En çok yıldızlananlardan
+
+          # --- PULL REQUESTS & ISSUES ---
+          plugin_reactions: yes
+          plugin_reactions_limit: 200
+          plugin_discussions: yes
+
+          # --- KULLANICI TEMA (RENK PALETİ) ---
+          config_theme: dark
+          config_padding: 16, 8, 12, 8
+
+          # --- DİĞERLERİ ---
+          plugin_isocalendar: yes   # Contribution calendar
+          plugin_isocalendar_duration: full-year
