@@ -15,51 +15,45 @@ jobs:
       - name: Generate GitHub Metrics
         uses: lowlighter/metrics@latest
         with:
-          # ÇIKTI dosyası
           filename: github-metrics.svg
-          # Kendi oluşturduğun secret token
           token: ${{ secrets.METRICS_TOKEN }}
 
           # --- ANA METRİK BLOKLARI ---
           base: header, activity, community, repositories, metadata
 
           # --- TEMALAR ---
-          config_display: large         # Büyük kutucuklar
-          config_octicon: yes           # Octicon ikonları aktif
-          config_timezone: Europe/Istanbul # Zaman dilimi doğru olsun
-          config_twemoji: yes           # Emoji desteği
+          config_display: large
+          config_octicon: yes
+          config_timezone: Europe/Istanbul
+          config_twemoji: yes
+          config_padding: 16, 8, 12, 8
 
           # --- AKTİVİTE & TRAFİK ---
-          plugin_traffic: yes           # Trafik breakdown
-          plugin_traffic_chart: yes     # Trafik chartı
+          plugin_traffic: yes
 
           # --- CONTRIBUTORLAR ---
           plugin_contributors: yes
-          plugin_contributors_head: 5   # En iyi 5 contributor
-          plugin_contributors_ignored: "" # (gizlemek istediklerini yazabilirsin)
+          plugin_contributors_head: 5
+          plugin_contributors_ignored: ""
 
           # --- COMMIT HABBITS ---
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes
           plugin_habits_charts_type: classic
-          plugin_habits_days: 14        # Son 14 gün
-          plugin_habits_from: 200       # Son 200 commit
+          plugin_habits_days: 14
+          plugin_habits_from: 200
 
           # --- KONULAR (TAGS) ---
           plugin_topics: yes
           plugin_topics_limit: 10
-          plugin_topics_mode: starred    # En çok yıldızlananlardan
+          plugin_topics_mode: starred
 
           # --- PULL REQUESTS & ISSUES ---
           plugin_reactions: yes
           plugin_reactions_limit: 200
           plugin_discussions: yes
 
-          # --- KULLANICI TEMA (RENK PALETİ) ---
-          config_theme: dark
-          config_padding: 16, 8, 12, 8
-
-          # --- DİĞERLERİ ---
-          plugin_isocalendar: yes   # Contribution calendar
+          # --- KATKILAR ---
+          plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
