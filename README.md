@@ -74,11 +74,3 @@
 
 ---
 
-### ⏳ WakaTime
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=BGirginn&theme=radical" height="200"/>
-</p>
-
----
-
-<!-- Profil README'sini daha fazla kişiselleştirmek istersen, eklememi istediğin başka bir alanı yazabilirsin! -->
