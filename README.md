@@ -61,20 +61,21 @@
 
 ### 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BoraGirgin&show_icons=true&theme=radical&hide=stars" alt="Bora's GitHub stats" height="170"/>
-  <img src="https://streak-stats.demolab.com?user=BoraGirgin&theme=radical" alt="GitHub Streak" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=BGirginn&show_icons=true&theme=radical&hide=stars" alt="Bora's GitHub stats" height="170"/>
+  <img src="https://streak-stats.demolab.com?user=BGirginn&theme=radical" alt="GitHub Streak" height="170"/>
 </p>
 
 ---
 
-### ⏰ Coding Habits & WakaTime
+### ⏰ Coding Habits & Metrics
 <p align="center">
-  <!-- Coding habits: -->
-  <!-- Eğer lowlighter/metrics kurarsan aşağıdaki satırı aktif et (şimdilik örnek görsel) -->
-  <!-- <img src="https://github.com/BoraGirgin/BoraGirgin/blob/main/github-metrics.svg" alt="Metrics" /> -->
-  <!-- Sadece örnek veya statik görsel eklemek istersen: -->
-  <img src="https://user-images.githubusercontent.com/your-id-or-link/habits-mockup.png" alt="Coding habits example" width="500"/>
-  <!-- WakaTime stats: (Kendi WakaTime kullanıcı adın ile değiştir!) -->
+  <img src="https://github.com/BGirginn/BGirginn/blob/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
+</p>
+
+---
+
+### ⏳ WakaTime
+<p align="center">
   <img src="https://github-readme-stats.vercel.app/api/wakatime?username=BGirginn&theme=radical" height="200"/>
 </p>
 
