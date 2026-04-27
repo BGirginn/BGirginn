@@ -1,76 +1,66 @@
-<h1 align="center">Hi 👋, I'm Bora</h1>
-<h3 align="center">Embedded system developer, Electrical and Electronic Engineering student</h3>
+# Bora Girgin
+### Embedded Systems Engineer | Electrical & Electronics Engineering
 
-- 🔭 I’m currently working on **a Tubitak project with 2 friends and a small company called Artech Solutions**
-- 🌱 I’m currently learning **assembly, LoRa and IoT**
-- 🤝 I’m looking for help with **Cyber Security and Arduino**
-- 📫 How to reach me: **girginbora30@gmail.com**
+<p align="left">
+  <img src="https://img.shields.io/badge/Focus-Low--Level_Systems-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Hardware-ARM_|_ESP32_|_LoRa-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Security-Red_Teaming-red?style=for-the-badge" />
+</p>
 
 ---
 
-### 📫 Connect with me
+### 🛠 Technical Profile
+Dedicated to bridging the gap between high-level logic and bare-metal hardware. Currently specializing in embedded firmware development, power systems engineering, and offensive security research.
+
+- **Current Focus:** Leading a **TÜBİTAK**-funded R&D project in collaboration with **Artech Solutions**.
+- **Specialization:** Kernel initialization, GDT/IDT configurations, and custom C Runtime (CRT) implementation.
+- **Hardware Research:** Advanced LoRa (SX1276) communication, custom PCB design, and transformer vector group analysis.
+- **Offensive Security:** Developing custom malware mechanics, Windows API exploitation, and HID payload development.
+
+---
+
+### 💻 Core Tech Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **Languages** | `C++` (Expert), `Rust` (Expert), `C`, `x86/ARM Assembly`, `Python` |
+| **Embedded & IoT** | `ESP32`, `RTOS`, `LoRaWAN`, `Arduino`, `HID Payloads` |
+| **Systems & Tools** | `Arch Linux ARM`, `macOS (Silicon)`, `Git`, `FastAPI` |
+| **Engineering** | `MATLAB`, `ngspice`, `Transformer Analysis`, `PCB Design` |
+
+---
+
+### 📁 Engineering Highlights
+* **BoraOS (Ongoing):** An experimental OS kernel project focused on low-level memory management and hardware abstraction.
+* **Smart Home Master Node:** A high-security, local-first IoT architecture built on FastAPI and Raspberry Pi.
+* **Industrial Power Analysis:** Simulation and modeling of transformer sargı connections and lightning protection for transmission lines.
+
+---
+
+### 📡 Connectivity
 <p align="left">
-  <a href="https://linkedin.com/in/bora-girgin-369a12257/" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  <a href="https://linkedin.com/in/bora-girgin-369a12257/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://medium.com/@bgirginn" target="blank">
-    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" height="30" width="40" />
+  <a href="https://medium.com/@bgirginn">
+    <img src="https://img.shields.io/badge/Medium-12100E?style=flat-square&logo=medium&logoColor=white" />
+  </a>
+  <a href="mailto:girginbora30@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://bgirgin.dev">
+    <img src="https://img.shields.io/badge/Portfolio-bgirgin.dev-black?style=flat-square&logo=google-chrome&logoColor=white" />
   </a>
 </p>
 
 ---
 
-### 🛠️ Languages and Tools
-<p align="left">
-  <a href="https://www.arduino.cc/" target="_blank" rel="noreferrer">
-    <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/>
-  </a>
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/>
-  </a>
-  <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/>
-  </a>
-  <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original-wordmark.svg" alt="dotnet" width="40" height="40"/>
-  </a>
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-  </a>
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-  </a>
-  <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
-  </a>
-  <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer">
-    <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/>
-  </a>
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-  </a>
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-  </a>
-</p>
-
----
-
-### 📊 GitHub Stats
+### 📊 Performance Metrics
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=BGirginn&show_icons=true&theme=radical&hide=stars" alt="Bora's GitHub stats" height="170"/>
-  <img src="https://streak-stats.demolab.com?user=BGirginn&theme=radical" alt="GitHub Streak" height="170"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=BGirginn&show_icons=true&theme=radical&hide=stars" alt="GitHub Stats" height="175"/>
+  <img src="https://streak-stats.demolab.com?user=BGirginn&theme=radical" alt="GitHub Streak" height="175"/>
 </p>
 
----
-
-### ⏰ Coding Habits & Metrics
 <p align="center">
   <img src="https://github.com/BGirginn/BGirginn/blob/main/github-metrics.svg" alt="GitHub Metrics" width="100%"/>
 </p>
-
----
-
